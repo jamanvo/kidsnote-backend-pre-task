@@ -11,8 +11,8 @@ class Contact(models.Model):
     phone = models.CharField(max_length=20, verbose_name="전화번호")
 
     profile_image_url = models.URLField(null=True)
-    company = models.CharField(max_length=100, null=True, verbose_name="회사")
-    position = models.CharField(max_length=100, null=True, verbose_name="직책")
+    company = models.CharField(max_length=32, null=True, verbose_name="회사")
+    position = models.CharField(max_length=16, null=True, verbose_name="직책")
     memo = models.TextField(null=True, verbose_name="메모")
     address = models.TextField(null=True, verbose_name="주소")
     birthday = models.DateField(null=True, verbose_name="생일")
