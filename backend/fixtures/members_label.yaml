@@ -1,0 +1,8 @@
+- model: members.label
+  pk: 1
+  fields:
+    label: 친구
+- model: members.label
+  pk: 2
+  fields:
+    label: 회사

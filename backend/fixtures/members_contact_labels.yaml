@@ -1,0 +1,20 @@
+- model: members.contact_labels
+  pk: 1
+  fields:
+    contact_id: 1
+    label_id: 2
+- model: members.contact_labels
+  pk: 2
+  fields:
+    contact_id: 2
+    label_id: 1
+- model: members.contact_labels
+  pk: 3
+  fields:
+    contact_id: 3
+    label_id: 1
+- model: members.contact_labels
+  pk: 4
+  fields:
+    contact_id: 3
+    label_id: 2
